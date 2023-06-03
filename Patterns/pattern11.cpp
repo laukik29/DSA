@@ -7,10 +7,10 @@ int main()
     int row=1;
     while(row<=n)
     {
-        int col=1;
-        while(col<=n)
+        int col=0;
+        while(col<n)
         {
-                char ch = 'A'+row-1;
+                char ch = 'A'+col;
                 cout<< ch;
                 col=col+1;
         }
@@ -20,6 +20,6 @@ int main()
 
 
 }
-// AAA
-// BBB
-// CCC
+// ABC
+// ABC
+// ABC
