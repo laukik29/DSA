@@ -4,6 +4,9 @@ using namespace std;
 void update(int arr[], int n)
 {
     cout<<"inside the function"<<endl;
+    //updating the first element of the array
+    arr[0]=120;
+
     //printing the array
 
     for(int i=0;i<n;i++)
